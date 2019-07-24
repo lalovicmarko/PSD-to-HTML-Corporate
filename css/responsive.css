@@ -1,0 +1,308 @@
+.slicknav_menu
+{
+    display: none;
+}
+
+
+/*** 992px ***/
+
+@media screen and (max-width: 992px)
+{
+    /*** menu ***/
+    .slider
+    {
+        margin-top: 90px;
+    }
+
+    header
+    {
+        margin-top: -90px;
+        background-color: #34495e;
+    }
+
+    #menu
+    {
+        display: none;
+    }
+
+    .slicknav_menu
+    {
+        display: inline-block;
+        position: fixed;
+        background-color: rgba(0,0,0,0);
+        z-index: 1000;
+        right: 0px;
+        margin-top: -90px;
+    }
+
+    .slicknav_btn
+    {
+        background-color: #e74c3c;
+        margin: 25px 30px 0 0 ;
+    }
+
+    .slicknav_nav
+    {
+        background-color: #34495e;
+        width: 200px;
+    }
+
+    .slicknav_nav li
+    {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 3em;
+        line-height: 3em;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .slicknav_nav li a
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .slicknav_nav li a:hover
+    {
+        color: #e74c3c;
+        background-color: rgba(0,0,0,0);
+    }
+
+    a.logo
+    {
+        padding-left: 25px;
+    }
+
+
+    /*** slider ***/
+    .slider, .slider ul.slider-carousel , .slider ul.slider-carousel li
+    {
+        height: 450px;
+    }
+
+    .slider ul.slider-carousel li h1
+    {
+        margin-bottom: 30px;
+        margin-top:100px;
+    }
+    .slider ul.slider-arrows
+    {
+        opacity: 0;
+    }
+
+
+    /*** portfolio ***/
+    .portfolio
+    {
+        background: none;
+        background-color: #eca535;
+    }
+
+    .portfolio-carousel h3
+    {
+        font-size: 14px;
+    }
+
+    .portfolio .inner-content
+    {
+        width: 200px;
+        height: 180px
+    }
+
+    .portfolio .portfolio-nav li
+    {
+        margin-right: 0px;
+    }
+
+
+    /*** team ***/
+
+    .team-carousel h3
+    {
+        font-size: 14px;
+    }
+
+    .team .inner-content
+    {
+        width: 200px;
+        height: 180px
+    }
+
+    .team-carousel li
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .team-carousel .description
+    {
+        display: none;
+    }
+
+
+    /*** testimonials ***/
+
+    .testimonials
+    {
+        background: none;
+        background-color: #1b2a37;
+    }
+
+
+    /*** blog ***/
+
+    .blog
+    {
+        text-align: center;
+    }
+
+    .blog img
+    {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    /*** contact form ***/
+
+    .contact
+    {
+        background: none;
+        background-color: #36767a;
+    }
+
+    form.contact-form
+    {
+        width: 60%;
+    }
+
+    /*** footer ***/
+    footer
+    {
+        text-align: center;
+    }
+
+}
+
+
+/*** 800px ***/
+
+@media screen and (max-width: 800px)
+{
+    .portfolio-carousel h3
+    {
+        font-size: 12px;
+    }
+
+    .portfolio .inner-content
+    {
+        width: 180px;
+        height: 150px
+    }
+
+    .portfolio li
+    {
+        margin-right: 0px;
+    }
+
+    .portfolio li p
+    {
+        font-size: 12px;
+    }
+
+
+    /*** team ***/
+
+    .team-carousel h3
+    {
+        font-size: 12px;
+    }
+
+    .team .inner-content
+    {
+        width: 180px;
+        height: 150px
+    }
+
+    .team li
+    {
+        margin-right: 0px;
+    }
+
+    .team li p
+    {
+        font-size: 12px;
+    }
+
+
+    /*** testiompnials ***/
+
+    .testimonials-carousel li
+    {
+        margin: 0 100px;
+    }
+}
+
+
+/*** 767px ***/
+
+@media screen and (max-width: 767px)
+{
+    .blog img
+    {
+        width: auto;
+    }
+}
+
+
+/*** 550px ***/
+
+@media screen and (max-width: 550px)
+{
+    .slider, .slider ul.slider-carousel , .slider ul.slider-carousel li
+    {
+        height: 380px;
+    }
+
+    .slider ul.slider-carousel li h1
+    {
+        margin-bottom: 30px;
+        margin-top:70px;
+    }
+
+    .testimonials-carousel li
+    {
+        margin: 0 50px;
+    }
+
+
+    /*** contact form ***/
+
+    form.contact-form
+    {
+        width: 80%;
+    }
+}
+
+
+/*** 420px ***/
+
+@media screen and (max-width: 420px) {
+    .slider ul li a
+    {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slider ul.slider-carousel li h1 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+}
